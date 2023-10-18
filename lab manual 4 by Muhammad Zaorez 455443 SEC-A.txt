@@ -1,0 +1,61 @@
+/*
+                                          LAB MANUAL 4
+										 MUHAMMAD ZAOREZ
+                                             455443
+                                             SEC-A
+*/
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	//                                        LAB TASK 01
+/*	int x=0, y=0;
+	for(int x=0;x<=10;x++){
+		y=y+x;
+		cout<<"The sum of first 10 natural number is"<<y<<endl;
+	}
+return 0;*/
+
+//                                          LAB TASK 02
+    /*int i=0, y=3, z=0;
+    for(int i=1;i<=10;i++){
+    	z=y*i;
+    	cout<<y<<"x"<<i<<"="<<z<<endl;
+	}
+	return 0;*/
+
+//                                           LAB TASK 03
+    
+    /*int x, y = 1;
+
+    cout << "Enter a number: ";
+    cin >> x;
+
+    for (int i = 2; i <= x; ++i) {
+        y *= i;
+    }
+
+    cout << "The fatorial of " << x << " is " << y << endl;
+
+    return 0;*/
+    
+//                                         LAB TASK 04
+ /*   int n = 8;
+    int a = 0, b = 1;
+
+    cout << "Fibonacci sequence from the 3rd term to the next " << n << " terms: ";
+
+    for (int i = 3; i <= n + 2; i++) {
+        int c = a + b;
+        cout << c;
+        if (i < n + 2) {
+            cout << ", ";
+        }
+        a = b;
+        b = c;
+    }
+
+    cout << endl;
+
+    return 0;
+}
